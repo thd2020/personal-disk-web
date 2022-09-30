@@ -1,0 +1,8 @@
+FROM thd2020/netdisk_web:r0.0.1
+LABEL MAINTAINER_NAME="xyx"
+
+EXPOSE 80 7011 7012 8080
+
+ENV HOST=0.0.0.0
+
+ENTRYPOINT [ "bash" ]
