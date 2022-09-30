@@ -3,6 +3,11 @@
 .idea/
 *.iml
 target/
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+.idea
  
 # Log file
 *.log
